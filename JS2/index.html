@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS2 Manualidades</title>
+    <script src="https://kit.fontawesome.com/d424cd3edf.js" crossorigin="anonymous"></script>
+    <!--La descripción no debe tener mas de 165 caracteres-->
+    <meta name="description" content="En esta página encontraras incontables recetas y tips que te haran un experto en la cocina.">
+    <!--Esta etiqueta es para el favicon en los navegadores-->
+    <link rel="icon" href="./assets/favicon.png">
+    <!--Esta etiqueta es para generar el icono en los dispositivos móviles al guardar la página-->
+    <link rel="apple-touch-icon" href="./assets/favicon.png">
+    <!--Esta etiqueta nos permite cambiar el color de la barra de direcciones en los dispositivos móviles-->
+    <meta name="theme-color" content="#d90062">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- logo y Navegacion -->
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="index.html"><img src="./assets/logo.png" alt="" class="logo__img"></a>
+            </div>
+            <button class="menu__btn">
+                <svg width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
+                <svg class="none" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
+            </button>
+            <nav class="menu">
+                <a href="#home">Inicio</a>
+                <a href="#about">Nosotros</a>
+                <a href="#techniques">Nuestras Técnicas</a>
+                <a href="#contact">Contáctanos</a>
+            </nav>
+        </section>
+    </header>
+    <!-- Imagen Ppal -->
+    <section id="home" class="home">
+        <section class="hero__image">
+            <aside class="hero__image-opacity">
+                <div class="hero__image-content">
+                    <h1 class="hero__image-title">
+                        Bienvenidos<br>a JS2
+                    </h1>
+                    <p class="hero__image-text">¡Un mundo hecho de manualidades a tu alcance!</p>
+                    <div class="btn">
+                        <a href="#contact" class="hero__btn" style="--clr:#32C1CD; --i:0;"><samp class="btn__span">Contáctanos</samp></a>
+                    </div>
+                </div>
+            </aside>
+        </section>        
+        <div class="sesgoabajo"></div>
+    </section>
+    <!-- Nosotros -->
+    <section id="about" class="about section section__about container full-lg-screen">
+        <article class="text__lg-right">
+            <aside>
+                <h2 class="text__center text__lg-right subtitle">¿Quiènes somos?</h2>
+            </aside>
+            <p class="center text__lg-right">JS2 Manualidades, nace como emprendimiento familiar, al pasar por inconvenientes laborales y enfrentarnos a dificultades de salud, como familia decidimos desarrollar y fortalecer las habilidades manuales y creativas con las que contábamos:</p>
+            <p class="center text__lg-right">empezamos trabajando diferentes técnicas. primero el porcelanicrón, elaborando pesebres que fueron vendidos a familiares y amigos, despues realizamos figuras personalizadas para un hospital; luego aprendimos a trabajar el tejido peyote, creando varios proyectos y</p>
+            <p class="center text__lg-right">dándonos a conocer un poco más, esta tecnica es la que nos ha permitido desarrollar mayor cantidad de proyecto. de esta manera hemos aprendido y desarrollado proyectos en diferentes técnicas;</p>
+        </article>
+        <article class="center__img">
+            <img class="center__img-size" src="./assets/nosotros.jpeg" alt="Mi familia">
+        </article>
+        <article class="text__lg-left">
+            <p class="center text__lg-left">Aprendimos a trabajar el icopor, esta técnica nos ha permitido realizar muchos y diferentes trabajos, como las grutas donde van las imagenes religiosas, pesebres, nacimientos y más.</p>
+            <p class="center text__lg-left">La técnica con pintura acrilica la hemos ido trabajando con las decoraciones de fiestas, haciendo primero los dibujos de cumpleaños de nuestos hijos, ellos son los que evaluan rigurosamente los proyectos y dan ideas para realizarlos, siendo los inspectores de calidad. También le hemos dado color a multiples imagenes en marmolina, ángeles, santos, pesebres y entregamos una dama de la justicia a una firma de abogados.</p>
+            <p class="center text__lg-left">Esperamos aprender a trabajar nuevas y diferentes técnicas como lo son proximamente el repujado en aluminio.</p>
+        </article>
+    </section>
+    <!-- Techniques -->
+    <section id="techniques" class="techniques section">
+        <h2 class="subtitle">Nuestras Técnicas</h2>
+        <p class="center">Adquiere tus proyectos en las mejores técnicas con nosotros.</p>
+        <hr class="separator">
+        <div class="techniques__container">
+            <div class="techniques__category">
+                <ul class="techniques__ul">
+                    <li class="techniques__li"><a href="#peyote" class="techniques__a">Peyote</a></li>
+                    <li class="techniques__li"><a href="#icopor" class="techniques__a">Icopor</a></li>
+                    <li class="techniques__li"><a href="#acrilicos" class="techniques__a">Acrilicos</a></li>
+                    <li class="techniques__li"><a href="#porcelanicron" class="techniques__a">Porcelanicron</a></li>
+                </ul>
+            </div>
+            <div class="lineas">
+                <img src="./assets/linea_1.png" alt="Línea decorativa">
+            </div>                      
+            <div class="articles__techniques">
+                <h3 class="techniques__h2" id="peyote">Técnica Peyote</h3>
+                <article class="techniques__grid">
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/angel_de_la_guarda.png" alt="Angel de la Guarda rojo" class="grid__img"></a>
+                        <h3 class="grid__title">Angel de la Guarda</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/angel_de_luz.png" alt="Angel de Luz" class="grid__img"></a>
+                        <h3 class="grid__title">Angel de Luz</h3>                    
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/angel_de_pascua.png" alt="Angel de Pascua" class="grid__img"></a>
+                        <h3 class="grid__title">Angel de Pascua</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/arbol_navidad.png" alt="Arbol de Navidad" class="grid__img"></a>
+                        <h3 class="grid__title">Arbol de Navidad</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/cacatua.png" alt="Cacatua" class="grid__img"></a>
+                        <h3 class="grid__title">Cacatua</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/casa_navidad.png" alt="Casa de Navidad" class="grid__img"></a>
+                        <h3 class="grid__title">Casa de Navidad</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/corona_vela_navidad.png" alt="Corona de Vela de Navidad" class="grid__img"></a>
+                        <h3 class="grid__title">Corona de Vela de Navidad</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/escudo_dim.png" alt="Escudo del DIM" class="grid__img"></a>
+                        <h3 class="grid__title">Escudo del DIM</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/escudo_nacional.png" alt="Escudo del Nacional" class="grid__img"></a>
+                        <h3 class="grid__title">Escudo del Nacional</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/ESCUDO AMERICA.jpg" alt="Escudo del America" class="grid__img"></a>
+                        <h3 class="grid__title">Escudo del America</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/fantasma_halloween.png" alt="Fantasma de Halloween" class="grid__img"></a>
+                        <h3 class="grid__title">Fantasma de Halloween</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/guason.png" alt="El Guason" class="grid__img"></a>
+                        <h3 class="grid__title">El Guason</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/nombre_isabella.png" alt="Nombre de Isabella" class="grid__img"></a>
+                        <h3 class="grid__title">Nombre de Isabella</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/peyote/pesebre_1mt.png" alt="Pesebre" class="grid__img"></a>
+                        <h3 class="grid__title">Pesebre</h3>
+                    </div>
+                </article>
+                <h3 class="techniques__h2" id="icopor">Técnica en Icopor</h3>
+                <article class="techniques__grid">
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/icopor/gruta_guadalupana.png" alt="Gruta Guadalupana" class="grid__img"></a>
+                        <h3 class="grid__title">Gruta Guadalupana</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/icopor/gruta_piedra_negra.png" alt="Gruta de Piedra Negra" class="grid__img"></a>
+                        <h3 class="grid__title">Gruta de Piedra Negra</h3>                    
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/icopor/gruta_textura_ladrillo.png" alt="Gruta con Textura de Ladrillo" class="grid__img"></a>
+                        <h3 class="grid__title">Gruta Textura de Ladrillo</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/icopor/gruta_textura_piedra_guadalupana.png" alt="grutacon Textura de Piedra Guadalupana" class="grid__img"></a>
+                        <h3 class="grid__title">Gruta Textura de Piedra</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/icopor/nacimiento.png" alt="Nacimiento" class="grid__img"></a>
+                        <h3 class="grid__title">Nacimiento</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/icopor/portal_1.png" alt="Portal Uno" class="grid__img"></a>
+                        <h3 class="grid__title">Portal Uno</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/icopor/portal_2.png" alt="Portal Dos" class="grid__img"></a>
+                        <h3 class="grid__title">Portal Dos</h3>
+                    </div>
+                </article>
+                <h3 class="techniques__h2" id="acrilicos">Técnica en Acrilicos</h3>
+                <article class="techniques__grid">
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_1.png" alt="Fiesta Uno" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta Uno</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_2.png" alt="Fiesta Dos" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta Dos</h3>                    
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_3.png" alt="Fiesta Tres" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta Tres</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_4.png" alt="Fiesta Cuatro" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta Cuatro</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_5.png" alt="Fiesta Cinco" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta Cinco</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_6.png" alt="Fiesta Seis" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta Seis</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_7.png" alt="Fiesta Siete" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta Siete</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_pvz1.png" alt="Fiesta PVZ1" class="grid__img"></a>
+                        <h3 class="grid__title">Fiesta PVZ1</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_unicornio_1.png" alt="Unicornio Uno" class="grid__img"></a>
+                        <h3 class="grid__title">Unicornio Uno</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_unicornio_2.png" alt="Unicornio Dos" class="grid__img"></a>
+                        <h3 class="grid__title">Unicornio Dos</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/acrilicos/fiesta_unicornio_3.png" alt="Unicornio Tres" class="grid__img"></a>
+                        <h3 class="grid__title">Unicornio Tres</h3>
+                    </div>
+                </article>
+                <h3 class="techniques__h2" id="porcelanicron">Técnica en Porcelanicrón</h3>
+                <article class="techniques__grid">
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/porcelanicron/buho.png" alt="Buho" class="grid__img"></a>
+                        <h3 class="grid__title">Buho</h3>
+                    </div>
+                    <div class="grid__items">
+                        <a href="#" class="grid__a"><img src="./assets/porcelanicron/nacimiento.png" alt="Nacimiento" class="grid__img"></a>
+                        <h3 class="grid__title">Nacimiento</h3>                    
+                    </div>
+                </article>
+            </div>            
+        </div>
+        
+    </section>
+    <!-- Suscripción Boletin -->
+    <section class="boletin">
+        <h2 class="boletin__title">Recibe lo mejor de JS2 en tu correo</h2>
+        <form class="boletin__form">
+            <input class="boletin__email" type="email" name="email" placeholder="Correo Electrónico" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required>
+            <input class="suscription__btn boletin__submit" type="submit" value="Suscríbete">
+        </form>
+        <div class="boletin__text">
+            <small class="boletin__small">Te enviamos nuestro Newsletter una vez al día, con todo lo que publicamos.</small>
+        </div>
+    </section>
+    <!-- Contacto -->
+    <section id="contact" class="contact section">
+        <h2 class="subtitle">Contáctanos</h2>
+        <p class="center">Estaremos encantados de responderte.</p>
+        <hr class="separator">
+        <div class="form">
+            <form class="contact__form" action="https://formsubmit.co/ivandariomj@hotmail.com" method="POST">
+                <input class="form__input" type="text" name="nombres" placeholder="Nombres" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input class="form__input" type="text" name="apellidos" placeholder="Apellidos" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <input class="form__input" type="tel" name="telefono" placeholder="Teléfono" required>
+                <input class="form__input" type="email" name="email" placeholder="Correo Electrónico" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required>
+                <input class="form__input" type="text" name="ciudad" placeholder="Ciudad" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
+                <textarea class="form__message" name="message" id="mesasge" cols="30" rows="10" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                <div class="contact__btn">
+                    <input class="suscription__btn form__bottom1 form__bottom1--modal" type="submit" value="Enviar">
+                    <input class="suscription__btn form__bottom2" type="reset" value="Limpiar">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Pie de Página -->
+    <footer class="footer center">
+        <a href="#home" class="footer__a-img"><img src="./assets/favicon.png" alt="Logo MR" class="footer__img"></img></a>
+        <small class="footer__text"><a class="footer__a" target="_blank" href="https://www.facebook.com/JS2MANUALIDADES">@js2Manualidades </a> - Copyright © Todos los derechos reservados 2021.</small>
+        <article class="networds">
+            <h4 class="networds__followUs">Síguenos en:</h4>
+            <a href="https://es-la.facebook.com/JS2MANUALIDADES" target="blank" class="networds__a"><img src="./assets/facebook.png" alt="Perfíl de Facebook" class="networds__img"></a>
+            <a href="https://www.instagram.com/js2manualidades/" target="blank" class="networds__a"><img src="./assets/instagram.png" alt="Cuenta de Instagram" class="networds__img"></a>
+            <a href="https://api.whatsapp.com/send?phone=+573226236263" target="blank" class="networds__a"><img src="./assets/whatsapp.png" alt="Perfíl de Whatsapp" class="networds__img"></a>
+        </article>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
